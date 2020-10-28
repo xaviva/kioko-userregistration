@@ -1,0 +1,30 @@
+<?php
+session_start();
+$username = $_SESSION['username'];
+echo"Welcome". $username;
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xavier BurgersClient Page</title>
+</head>
+<body>
+	<div class="header">
+		<h2>Welcom to Xavier Burgers</h2>
+	</div>
+	<div class="content">
+ 
+						<br>
+						<a href="login.php?logout='1'" style="color: red;">logout</a>
+					</small>
+
+			
+			</div>
+		</div>
+	</div>
+
+	<p>
+        Order Food</br> from Xavier Burgers</br> <a href="order.php">View Menu and Order NowOrder Now!!!</a>
+    </p>
+</body>
+</html>

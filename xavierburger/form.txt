@@ -1,0 +1,56 @@
+
+<!--ALEX KARIUKI 121660 ICS B.I redid the registration assignment again hope you can review my work starting rom here.-->
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>REGISTRATION</title>
+</head>
+<body>
+
+<h1>Registry for all</h1>
+<p>Welcome,please fill in the person details that are required below</p>
+
+<h2>Personal details</h2>
+ <form  style="max -width-500px" action="insert.php"  method="POST">
+    <fieldset>
+	<legend>Personal details</legend>
+ 	<label for="first_name">First Name:</label><br>
+	<input type = "text" name="fname"  id="first_name" ><br>
+    
+    
+ 	<label for="second_name">Second Name:</label><br>
+	<input type = "text" name="sname"  id="second_name"><br>
+    
+    
+	<label for="email_add">Email:</label><br>
+	<input type="email"name="email_address" id="email_add"><br>
+ 
+
+ 	<label for="Phone_number">Phone number:</label><br>
+	<input type = "text" name="Phone_no"  id="Phone_number"><br>
+
+	<label for="D.O.B">D.O.B:</label><br>
+	<input type = "date" name="date_birth"  id="D.O.B"><br>
+        <p>Gender</p>
+	<input type="radio" name ="gender" id="gender_1" value="male">
+	 <label for="gender_1">Male</label>
+	</p>
+	<p>
+	  <input type="radio" name ="gender" id="gender_2" value="male">
+	  <label for="gender_1">Female</label>
+	</p>
+	
+	<label for="username">Username</label>
+	<input type="text"  name="uname"  id="username" required><br><br>
+
+	<label for="pasword">Password</label>
+	<input type="password" name="pwd" id="password" required><br><br>
+  
+	<input type="submit" name="register" value="Register">
+     
+</fieldset>
+</form>
+</body>
+</html>
